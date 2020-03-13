@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
-  styleUrls: ['./home.component.css']
+  styleUrls: ['./home.component.css',"../../../node_modules/bootstrap/dist/css/bootstrap.css"]
 })
 export class HomeComponent implements OnInit {
 
@@ -12,4 +12,10 @@ export class HomeComponent implements OnInit {
   ngOnInit() {
   }
 
+  click(email){
+    console.log(email)
+  }
+  Mclick(password){
+    console.log(password)
+  }
 }
